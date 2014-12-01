@@ -3,10 +3,10 @@
 
 4					# Total number of nodes
 
-0	net01.utdallas.edu	3333	# Location of node 0
-1	net02.utdallas.edu	3336	# Location of node 1
-2	net03.utdallas.edu	4444	# Location of node 2
-3	net04.utdallas.edu	3334	# Location of node 3
+0	dc21.utdallas.edu	3333	# Location of node 0
+1	dc22.utdallas.edu	3336	# Location of node 1
+2	dc23.utdallas.edu	4444	# Location of node 2
+3	dc24.utdallas.edu	3334	# Location of node 3
 
 0	1 2 3				# Neighbors of node 0
 1	0 2				# Neighbors of node 1
@@ -21,13 +21,10 @@
 
 # sequence of operations to be simulated
 
-7					# number of operations
+4					# number of operations
 
 (c,1)
 (r,2)
 (r,0)
 (c,3)
-(c,2)
-(r,1)
-(c,0)
 
